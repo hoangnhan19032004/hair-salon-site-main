@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Env files
-.env
 hairsalon-backend/.env
 
 # Editor directories and files

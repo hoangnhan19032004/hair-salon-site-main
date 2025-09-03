@@ -1,0 +1,96 @@
+/* Cải thiện toàn bộ giao diện */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cải thiện tiêu đề */
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #343a40;
+  }
+  
+  /* Form Thêm Người Dùng */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Bảng Danh Sách Người Dùng */
+  table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+  }
+  
+  table th {
+    background-color: #f1f1f1;
+    font-size: 1.1rem;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table td button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  table td button:hover {
+    opacity: 0.8;
+  }
+  
+  table td button:nth-child(1) {
+    background-color: #ffc107; /* Màu vàng cho nút sửa */
+    color: white;
+  }
+  
+  table td button:nth-child(2) {
+    background-color: #dc3545; /* Màu đỏ cho nút xóa */
+    color: white;
+  }
+  
